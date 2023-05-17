@@ -1,0 +1,38 @@
+/* Resetear los estilos al inicial la página. */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 90px 20px 0;
+    background-color: darkslategrey;
+}
+
+.text-titles{
+    text-align: center;
+    font-size: 42px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    padding: 17px;
+}
+
+.text-p{
+    text-align: left;
+    font-size: 27px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    margin: 17px;
+    padding: 17px;
+}
+
+.images{
+    padding: 17px;
+    width: 640px;
+    height: 360px;
+    border-radius: 32px;
+}
